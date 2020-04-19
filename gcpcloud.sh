@@ -1,7 +1,6 @@
 #!/bin/bash
 apt-get -y update
 apt install sshpass -y
-pip install --upgrade pip
 apt install python-pip -y
 pip install git+https://github.com/shadowsocks/shadowsocks.git@master
 #同步系统时间
