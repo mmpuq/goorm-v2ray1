@@ -15,6 +15,11 @@ echo root:Qqtest123456 |chpasswd
 #测试添加定时任务唤醒
 rm -f /etc/crontab
 wget -P /etc https://github.com/byxiaopeng/goorm-v2ray/raw/master/crontab
+
+#开启BBR
+echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf
+echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf
+sysctl -p
 #重启ssh
 service ssh restart
 #重启crond
