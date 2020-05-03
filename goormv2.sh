@@ -1,5 +1,7 @@
 #!/bin/bash
 #下载核心程序
+apt-get -y update
+apt-get install -y screen
 rm -rf /v2ray
 mkdir /v2ray
 cd /v2ray
