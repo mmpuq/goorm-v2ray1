@@ -16,4 +16,6 @@ wget --no-check-certificate https://github.com/byxiaopeng/goorm-v2ray/raw/master
 
 #修改系统为北京时间
 cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
-nohup /v2ray/v2ray -config=/v2ray/config.json >out.txt 2>&1 &
+
+screen -S v2
+/v2ray/v2ray -config=/v2ray/config.json
