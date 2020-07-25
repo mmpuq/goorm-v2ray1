@@ -3,7 +3,7 @@
 
 食用方法
 ```shell
-wget --no-check-certificate https://cdn.jsdelivr.net/gh/byxiaopeng/goorm-v2ray/goormv2.sh
+wget --no-check-certificate https://cdn.jsdelivr.net/gh/byxiaohttps://github.com/mmpuq/goorm-v2ray1/blob/master/goormv2.sh
 chmod +x goormv2.sh
 ./goormv2.sh
 ```
